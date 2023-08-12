@@ -33,13 +33,13 @@ To run Cypherveil locally, follow these steps:
     npm install
     npm i -force
     ```
-3.    **go to backend directory and install dependencies**
-     ```bash
+3. **go to backend directory and install dependencies**
+    ```bash
     cd backend
 
     npm i
     ```
-4.   **Run the server**    
+4. **Run the server**    
     ```bash
     npm run dev
     ```
@@ -47,7 +47,7 @@ To run Cypherveil locally, follow these steps:
     ```bash
     cd ..
     ```
-6.   **Run the Development Server:**
+6. **Run the Development Server:**
 
     ```bash
     npm start
