@@ -1,0 +1,208 @@
+.group-icon {
+    position: absolute;
+    height: 87.93%;
+    width: 130.51%;
+    top: 0;
+    right: -30.51%;
+    bottom: 12.07%;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .web3 {
+    color: var(--color-greenyellow);
+  }
+  .host-your-own-container {
+    position: absolute;
+    top: 248px;
+    left: calc(50% - 304px);
+    font-size: var(--font-size-17xl);
+    font-weight: 600;
+  }
+  .event-description,
+  .event-name {
+    position: absolute;
+    top: 705px;
+    left: calc(50% - 640px);
+    font-weight: 600;
+  }
+  .event-description {
+    top: 865px;
+  }
+  .age-check,
+  .related-topics,
+  .select-date {
+    position: absolute;
+    top: 705px;
+    left: calc(50% + 40px);
+    font-weight: 600;
+  }
+  .age-check,
+  .related-topics {
+    top: 865px;
+  }
+  .related-topics {
+    top: 1013px;
+  }
+  .event-hosting-page-child {
+    border: 0;
+    height: 320px;
+    width: 600px;
+    top: 893px;
+    left: 80px;
+  }
+  .event-hosting-page-child,
+  .event-hosting-page-inner,
+  .event-hosting-page-item {
+    position: absolute;
+    border-radius: var(--br-base);
+    background-color: var(--color-gray);
+  }
+  .event-hosting-page-item {
+    border: 0;
+    height: 172px;
+    width: 600px;
+    top: 1041px;
+    left: 760px;
+  }
+  .event-hosting-page-inner {
+    top: 333px;
+    left: 80px;
+    width: 1280px;
+    height: 320px;
+  }
+  .upload-event-thumbnail {
+    position: absolute;
+    top: 470px;
+    left: 514px;
+    font-size: var(--font-size-17xl);
+    font-weight: 600;
+  }
+  .frame-child {
+    border: 0;
+    background-color: var(--color-gray);
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-base);
+    height: 80px;
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: 733px;
+    left: 80px;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 80px;
+  }
+  .frame-slider {
+    position: absolute;
+    top: 933px;
+    left: 760px;
+  }
+  .event-hosting-page-child1,
+  .rectangle-div {
+    position: absolute;
+    top: 949px;
+    left: 800px;
+    background-color: var(--color-gray);
+    width: 240px;
+    height: 8px;
+  }
+  .event-hosting-page-child1 {
+    left: 1080px;
+  }
+  .host-event {
+    position: relative;
+    font-weight: 600;
+  }
+  .host-event-wrapper {
+    position: absolute;
+    top: 1293px;
+    left: calc(50% - 132px);
+    border-radius: var(--br-5xs);
+    background: linear-gradient(124.29deg, #1dd3b0, #affc41);
+    box-shadow: var(--primary-shadow);
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-base) var(--padding-29xl);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+  }
+  .whisper-2023 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: var(--font-size-3xs);
+    font-weight: 600;
+  }
+  .dashboard,
+  .host {
+    position: relative;
+    font-size: var(--font-size-5xl);
+    font-weight: 600;
+  }
+  .host {
+    font-size: var(--font-size-base);
+    font-family: var(--font-plus-jakarta-sans);
+    color: var(--color-black);
+    text-align: left;
+  }
+  .host-wrapper {
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+  }
+  .bsrihurh3i567384-wrapper,
+  .host-wrapper {
+    border-radius: var(--br-5xs);
+    background: linear-gradient(124.29deg, #1dd3b0, #affc41);
+    box-shadow: var(--primary-shadow);
+    padding: var(--padding-5xs) var(--padding-5xl);
+    align-items: center;
+    justify-content: center;
+  }
+  .bsrihurh3i567384-wrapper,
+  .frame-parent,
+  .whisper-parent {
+    display: flex;
+    flex-direction: row;
+  }
+  .frame-parent {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    font-size: var(--font-size-base);
+    color: var(--color-black);
+  }
+  .whisper-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    padding: var(--padding-5xl) var(--padding-61xl);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+    font-size: var(--font-size-13xl);
+  }
+  .event-hosting-page {
+    position: relative;
+    background: linear-gradient(#010d0a, #010d0a), #fff;
+    width: 100%;
+    height: 1493px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--font-plus-jakarta-sans);
+  }
+  
