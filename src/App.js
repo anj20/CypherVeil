@@ -56,9 +56,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<DashboardPage />} />
-      <Route path="/event-page" element={<EventPage />} />
-      <Route path="/event-page/:id" element={<EventPage />} />
+      <Route path="/dashboard" element={<DashboardPage />} />
+      <Route path="/eventpage" element={<EventPage />} />
+      <Route path="/eventpage/:id" element={<EventPage />} />
       <Route path="/feedback" element={<Feedback className="primary" />} />
       <Route path="/eventhost" element={<EventHostingPage />} />
     </Routes>

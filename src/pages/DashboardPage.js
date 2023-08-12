@@ -68,33 +68,6 @@ const DashboardPage = () => {
       </div>
       <div className={styles.frameParent} data-scroll-to="frameContainer">
         <Container />
-        <Container
-          frameDivFlex="1"
-          frameDivAlignSelf="unset"
-          frameDivAlignSelf1="unset"
-          frameDivWidth="320px"
-          frameDivFlex1="1"
-          frameDivAlignSelf2="unset"
-          propFlex="1"
-        />
-        <Container
-          frameDivFlex="unset"
-          frameDivAlignSelf="unset"
-          frameDivAlignSelf1="unset"
-          frameDivWidth="320px"
-          frameDivFlex1="unset"
-          frameDivAlignSelf2="unset"
-          propFlex="unset"
-        />
-        <Container
-          frameDivFlex="unset"
-          frameDivAlignSelf="unset"
-          frameDivAlignSelf1="unset"
-          frameDivWidth="320px"
-          frameDivFlex1="unset"
-          frameDivAlignSelf2="unset"
-          propFlex="unset"
-        />
       </div>
       <div className={styles.frameGroup}>
         <div

@@ -119,6 +119,7 @@ export const ContractProvider = ({ children }) => {
     try {
       const contract = await signer1();
       const events = await contract.getEvents();
+      console.log(events);
       setEventsList(events);
     } catch (error) {
       console.log(error);

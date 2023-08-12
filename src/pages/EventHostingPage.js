@@ -21,29 +21,36 @@ const EventHostingPage = () => {
   const [topics, setTopics] = useState("");
   const [age, setAge] = useState([0]);
   const [description, setDescription] = useState("");
-  const [thumbnail, setthumbnail] = useState({});
+  const [thumbnail, setthumbnail] = useState({
+    backgroundImage: ``,
+    zIndex: 1,
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+  });
 
   const handleSliderChange = (value) => {
     setAge(value);
     console.log(age);
   };
 
-  useEffect(() => {});
-  const handleChange = (e) => {
+  const handleChange = async (e) => {
     const file = e.target.files[0];
-    const hash = uploadToIPFS(file);
-    setimh(hash);
-    setthumbnail({
-      backgroundImage: `url(${imh})`,
-      zIndex: 1,
-      backgroundSize: "cover",
-      backgroundRepeat: "no-repeat",
-    });
+    try {
+      const hash = await uploadToIPFS(file);
+      setimh(hash);
+      setthumbnail({
+        ...thumbnail,
+        backgroundImage: `url(${hash})`,
+      });
+    } catch (err) {
+      console.log(err);
+    }
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     try {
-      addEvents(name, imh, date, topics, age, description);
+      console.log(name, imh, date, topics, age, description);
+      await addEvents(name, imh, date, topics, age, description);
       navigate("/dashboard");
     } catch (err) {
       console.log(err);

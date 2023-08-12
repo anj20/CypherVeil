@@ -71,7 +71,8 @@
   position: absolute;
   top: 1158px;
   left: 208px;
-  width: 1024px;
+  width: 20vw;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
