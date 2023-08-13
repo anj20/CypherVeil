@@ -5,7 +5,7 @@ import styles from "./DashboardPage.module.css";
 import { React } from "react";
 const DashboardPage = () => {
   const onFrameContainer2Click = useCallback(() => {
-    window.location.href = "www.google.com";
+    window.location.href = "eventhost";
   }, []);
   const onFrameContainer6Click = useCallback(() => {
     const anchor = document.querySelector(
