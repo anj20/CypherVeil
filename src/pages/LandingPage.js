@@ -10,47 +10,11 @@ const LandingPage = () => {
   const [isLoggedIn, setisLoggedIn] = useState(false);
 
   const onLogin = useCallback(() => {
-    window.open("google.com");
+    window.open("dashboard");
   }, []);
 
   const onRectangle1Click = useCallback(() => {
-    window.open("google.com");
-  }, []);
-
-  const onFrameContainer5Click = useCallback(() => {
-    window.open("google.com");
-  }, []);
-
-  const onLinkIconClick = useCallback(() => {
-    window.open("facebook");
-  }, []);
-
-  const onLinkIcon1Click = useCallback(() => {
-    window.open("twitter.com");
-  }, []);
-
-  const onBeSafeTextClick = useCallback(() => {
-    window.open("google.com");
-  }, []);
-
-  const onBewareOfFraudstersClick = useCallback(() => {
-    window.open("google.com");
-  }, []);
-
-  const onSecurityFraudClick = useCallback(() => {
-    window.open("google.com");
-  }, []);
-
-  const onPrivacyPolicyTextClick = useCallback(() => {
-    window.open("google.com");
-  }, []);
-
-  const onTermsOfUseClick = useCallback(() => {
-    window.open("google.com");
-  }, []);
-
-  const onComplaintsTextClick = useCallback(() => {
-    window.open("google.com");
+    window.location.href = "/dashboard";
   }, []);
 
   return (
@@ -68,7 +32,7 @@ const LandingPage = () => {
             </div>
           ) : (
             <div className="host-container" onClick={onLogin}>
-              <div className="id-like-to">Login</div>
+              <div className="id-like-to">Logout</div>
             </div>
           )}
         </div>
@@ -83,8 +47,8 @@ const LandingPage = () => {
         <div className="lorem-ipsum-dolor1">
           Discover the power of Web3 in hosting anonymous meets at CypherVeil
         </div>
-        <div className="rectangle-group">
-          <div className="frame-inner" onClick={onRectangle1Click} />
+        <div className="rectangle-group" onClick={onRectangle1Click}>
+          <div className="frame-inner" />
           <KeyboardDoubleArrowRightIcon className="arrow-icon" />
           {/* <img alt="" src="/right-arrow.png" /> */}
           <div className="explore-events">Explore Events</div>
