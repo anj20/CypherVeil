@@ -3,6 +3,7 @@ import { Slider } from "antd";
 import "./EventHostingPage.css";
 import { useNavigate } from "react-router-dom";
 import { ContractContext } from "../context/MeetingContext";
+import { React } from "react";
 const EventHostingPage = () => {
   const navigate = useNavigate();
   const {

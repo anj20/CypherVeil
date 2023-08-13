@@ -2,6 +2,7 @@ import { useContext, useEffect } from "react";
 import styles from "./Container.module.css";
 import { ContractContext } from "../context/MeetingContext";
 import { useNavigate } from "react-router-dom";
+import { React } from "react";
 
 const Container = () => {
   const { getallEvents, eventsList } = useContext(ContractContext);

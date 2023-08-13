@@ -2,6 +2,7 @@ import { useCallback, useContext } from "react";
 import Header from "../components/Header";
 import Container from "../components/container";
 import styles from "./DashboardPage.module.css";
+import { React } from "react";
 const DashboardPage = () => {
   const onFrameContainer2Click = useCallback(() => {
     window.location.href = "www.google.com";

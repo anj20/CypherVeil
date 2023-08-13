@@ -1,6 +1,7 @@
 import { useMemo, useContext, useEffect } from "react";
 import styles from "./Header.module.css";
 import { ContractContext } from "../context/MeetingContext";
+import { React } from "react";
 const Header = ({
   propTop,
   propLeft,

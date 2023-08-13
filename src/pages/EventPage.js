@@ -2,6 +2,7 @@ import { useContext, useState, useEffect, useCallback } from "react";
 import { useParams } from "react-router-dom";
 import styles from "./EventPage.module.css";
 import { ContractContext } from "../context/MeetingContext";
+import { React } from "react";
 const EventPage = () => {
   const { currentAccount, getEvents, checkIfWalletIsConnected, connectWallet } =
     useContext(ContractContext);

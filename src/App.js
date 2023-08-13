@@ -4,6 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import { React } from "react";
 import DashboardPage from "./pages/DashboardPage";
 import EventPage from "./pages/EventPage";
 import Feedback from "./pages/Feedback";
