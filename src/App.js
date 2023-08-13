@@ -10,7 +10,7 @@ import EventPage from "./pages/EventPage";
 import Feedback from "./pages/Feedback";
 import { useEffect } from "react";
 import EventHostingPage from "./pages/EventHostingPage";
-
+import LandingPage from "./pages/LandingPage";
 function App() {
   const action = useNavigationType();
   const location = useLocation();
@@ -57,6 +57,7 @@ function App() {
 
   return (
     <Routes>
+      <Route path="/" element={<LandingPage />} />
       <Route path="/dashboard" element={<DashboardPage />} />
       <Route path="/eventpage" element={<EventPage />} />
       <Route path="/eventpage/:id" element={<EventPage />} />

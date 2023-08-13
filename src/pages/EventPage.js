@@ -30,10 +30,10 @@ const EventPage = () => {
     fetchEvent(id);
   }, [id]);
   const onFrameButtonClick = useCallback(() => {
-    window.open("https://calendar.google.com/calendar/u/0/r");
+    window.open("https://cypherviel.netlify.app/");
   }, []);
   const onFrameContainer7Click = useCallback(() => {
-    window.open("google.com");
+    window.open("cypherviel.netlify.app/");
   }, []);
   return (
     <div className={styles.eventPage}>
@@ -45,7 +45,7 @@ const EventPage = () => {
         className={styles.addReminderWrapper}
         onClick={onFrameButtonClick}
       >
-        <div className={styles.addReminder}>Add Reminder</div>
+        <div className={styles.addReminder}>Join Event</div>
       </button>
       <div className={styles.frameParent}>
         <div className={styles.date23052023Parent}>

@@ -5,7 +5,7 @@ import styles from "./DashboardPage.module.css";
 import { React } from "react";
 const DashboardPage = () => {
   const onFrameContainer2Click = useCallback(() => {
-    window.location.href = "www.google.com";
+    window.location.href = "eventhost";
   }, []);
   const onFrameContainer6Click = useCallback(() => {
     const anchor = document.querySelector(
@@ -47,7 +47,7 @@ const DashboardPage = () => {
     <div className={styles.dashboardPage}>
       <img className={styles.sssquiggly1Icon} alt="" src="/sssquiggly-1.svg" />
       <img className={styles.groupIcon} alt="" src="/group.svg" />
-      <div className={styles.loremIpsumDolor}>Lorem Ipsum Dolor Sit Amet</div>
+      <div className={styles.loremIpsumDolor}>Cryptic chambers, Voices unchained: Under the Veil</div>
       <div className={styles.discoverEvents}>
         Discover Events
         <div
@@ -57,8 +57,9 @@ const DashboardPage = () => {
       </div>
       <div className={styles.filterByTopic}>Filter by topic</div>
       <div className={styles.loremIpsumDolor1}>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+      At Cypherveil, we invite you to explore our captivating events and immersive rooms, each a gateway to unfiltered discussions. 
+      From thought-provoking debates to intimate heart-to-heart conversations, our platform is your haven to connect, share, and learn without revealing your identity. 
+      Navigate our curated events and enter rooms that resonate with your interests, where your voice gains power through anonymity.
       </div>
       <Header onFrameContainer2Click={onFrameContainer2Click} />
       <div
@@ -97,7 +98,7 @@ const DashboardPage = () => {
           <div className={styles.exploreEvents}>Future Events</div>
         </div>
       </div>
-      <div className={styles.whisper2023}>© Whisper 2023</div>
+      <div className={styles.whisper2023}>© CypherVeil 2023</div>
       <img className={styles.filterIcon} alt="" src="/filter.svg" />
     </div>
   );

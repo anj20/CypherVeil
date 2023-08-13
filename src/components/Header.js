@@ -37,7 +37,7 @@ const Header = ({
 
   return (
     <div className={styles.whisperParent} style={frameDivStyle}>
-      <div className={styles.whisper}>Whisper</div>
+      <div className={styles.whisper}>CypherVeil</div>
       <div className={styles.dashboard}>Dashboard</div>
       <div className={styles.frameParent}>
         <div
