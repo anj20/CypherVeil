@@ -47,7 +47,9 @@ const DashboardPage = () => {
     <div className={styles.dashboardPage}>
       <img className={styles.sssquiggly1Icon} alt="" src="/sssquiggly-1.svg" />
       <img className={styles.groupIcon} alt="" src="/group.svg" />
-      <div className={styles.loremIpsumDolor}>Cryptic chambers, Voices unchained: Under the Veil</div>
+      <div className={styles.loremIpsumDolor}>
+        Cryptic chambers,Under the Veil
+      </div>
       <div className={styles.discoverEvents}>
         Discover Events
         <div
@@ -57,9 +59,10 @@ const DashboardPage = () => {
       </div>
       <div className={styles.filterByTopic}>Filter by topic</div>
       <div className={styles.loremIpsumDolor1}>
-      At Cypherveil, we invite you to explore our captivating events and immersive rooms, each a gateway to unfiltered discussions. 
-      From thought-provoking debates to intimate heart-to-heart conversations, our platform is your haven to connect, share, and learn without revealing your identity. 
-      Navigate our curated events and enter rooms that resonate with your interests, where your voice gains power through anonymity.
+        At Cypherveil, we invite you to explore our captivating events and
+        immersive rooms, each a gateway to unfiltered discussions. From
+        thought-provoking debates to intimate heart-to-heart conversations, our
+        platform is your haven to connect, share.
       </div>
       <Header onFrameContainer2Click={onFrameContainer2Click} />
       <div

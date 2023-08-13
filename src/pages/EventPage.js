@@ -74,9 +74,9 @@ const EventPage = () => {
         </div>
       </div>
       <div className={styles.loremIpsumDolor1}>{eventobj && eventobj[7]}</div>
-      <div className={styles.whisper2023}>© Whisper 2023</div>
+      <div className={styles.whisper2023}>© CypherVeil 2023</div>
       <div className={styles.whisperParent}>
-        <div className={styles.loremIpsumDolor}>Whisper</div>
+        <div className={styles.loremIpsumDolor}>CypherVeil</div>
         <div className={styles.dashboard}>Dashboard</div>
         <div className={styles.frameGroup}>
           <div className={styles.hostWrapper} onClick={onFrameContainer7Click}>

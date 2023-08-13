@@ -144,7 +144,7 @@ const EventHostingPage = () => {
             navigate("/");
           }}
         >
-          Whisper
+          CypherVeil
         </div>
         <div className="dashboard">Dashboard</div>
         <div className="frame-parent">

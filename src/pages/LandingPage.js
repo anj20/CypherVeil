@@ -50,10 +50,12 @@ const LandingPage = () => {
         <div className="rectangle-group" onClick={onRectangle1Click}>
           <div className="frame-inner" />
           <KeyboardDoubleArrowRightIcon className="arrow-icon" />
-          {/* <img alt="" src="/right-arrow.png" /> */}
           <div className="explore-events">Explore Events</div>
         </div>
+        <div className="frame-inner2" />
+        <div className="explore-events2">Feedback</div>
       </div>
+
       <div className="whisper-is-an-container">
         <p className="whisper-is-an-online-platform">
           <span className="span">"</span>
@@ -101,7 +103,6 @@ const LandingPage = () => {
       <div>
         <img src="/My project.png" alt="" className="logo3" />
       </div>
-
       <div>
         <img src="/filecoin.png" alt="" className="logo4" />
       </div>
