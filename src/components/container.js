@@ -8,7 +8,7 @@ const Container = () => {
   const { getallEvents, eventsList } = useContext(ContractContext);
   const navigate = useNavigate();
   const handleNavigate = (event) => {
-    navigate(`/event-page/${event.id}`);
+    navigate(`/eventpage/${event.id}`);
   };
 
   useEffect(() => {
@@ -45,22 +45,27 @@ const Container = () => {
                       <p className={styles.time1400Gst}>Topics: {item[5]}</p>
                     </div>
                   </div>
-                  <div className={styles.markForReminderWrapper}>
+                  <div
+                    className={styles.markForReminderWrapper}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      window.location.href =
+                        "https://calendar.google.com/calendar";
+                    }}
+                    style={{ cursor: "pointer" }}
+                  >
                     <div className={styles.markForReminder}>
                       Mark for Reminder
                     </div>
                   </div>
-                  <div className={styles.markForReminderWrapper}>
-                    <button
-                      className={styles.markForReminder}
-                      onClick={(e) => {
-                        e.preventDefault();
-                        console.log("clicked");
-                        handleNavigate(item);
-                      }}
-                    >
-                      About
-                    </button>
+                  <div
+                    className={styles.markForReminderWrapper}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      handleNavigate(item);
+                    }}
+                  >
+                    <button className={styles.markForReminder}>About</button>
                   </div>
                 </div>
               </div>
