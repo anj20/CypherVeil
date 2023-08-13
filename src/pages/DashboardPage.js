@@ -47,7 +47,11 @@ const DashboardPage = () => {
     <div className={styles.dashboardPage}>
       <img className={styles.sssquiggly1Icon} alt="" src="/sssquiggly-1.svg" />
       <img className={styles.groupIcon} alt="" src="/group.svg" />
+<<<<<<< Updated upstream
       <div className={styles.loremIpsumDolor}>Cryptic chambers, Voices unchained: Under the Veil</div>
+=======
+      <div className={styles.loremIpsumDolor}>CypherVeil</div>
+>>>>>>> Stashed changes
       <div className={styles.discoverEvents}>
         Discover Events
         <div

@@ -136,7 +136,7 @@ const EventHostingPage = () => {
       <div className="host-event-wrapper" onClick={handleSubmit}>
         <div className="host-event">Host Event</div>
       </div>
-      <div className="whisper-2023">© Whisper 2023</div>
+      <div className="whisper-2023">© CypherVeil 2023</div>
       <div className="whisper-parent">
         <div
           className="host-event"
@@ -144,7 +144,7 @@ const EventHostingPage = () => {
             navigate("/");
           }}
         >
-          Whisper
+         CypherVeil
         </div>
         <div className="dashboard">Dashboard</div>
         <div className="frame-parent">
